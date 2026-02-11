@@ -1,0 +1,3 @@
+pnpm exec tailwindcss init -p
+
+ULTIMO COMANDO QUE HICE
