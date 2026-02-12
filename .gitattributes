@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+pnpm-lock.yaml linguist-generated
+
+**/dist/** linguist-generated
+**/build/** linguist-generated
+**/coverage/** linguist-generated
+**/.turbo/** linguist-generated
+**/.next/** linguist-generated
+**/.vite/** linguist-generated
+
+**/prisma/migrations/** linguist-generated
+
+**/generated/** linguist-generated
