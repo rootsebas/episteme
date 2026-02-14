@@ -10,6 +10,9 @@ importers:
 
   apps/api:
     dependencies:
+      '@episteme/contracts':
+        specifier: workspace:*
+        version: link:../../packages/contracts
       '@nestjs/common':
         specifier: ^11.0.1
         version: 11.1.13(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -98,6 +101,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@episteme/contracts':
+        specifier: workspace:*
+        version: link:../../packages/contracts
       react:
         specifier: ^19.2.0
         version: 19.2.4
@@ -159,6 +165,12 @@ importers:
       vite:
         specifier: ^7.3.1
         version: 7.3.1(@types/node@24.10.13)(jiti@1.21.7)(lightningcss@1.30.2)(terser@5.46.0)
+
+  packages/contracts:
+    devDependencies:
+      typescript:
+        specifier: ~5.9.3
+        version: 5.9.3
 
 packages:
 
